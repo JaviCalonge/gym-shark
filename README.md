@@ -3,5 +3,3 @@
 ## Gym Shark web sin enlaces
 
 ### Only desktop view
-
-#### Mobile view next time...
