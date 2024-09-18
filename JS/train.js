@@ -1,7 +1,7 @@
 let currentIndexTrain = 0;
 
-const prevButtonTrain = document.querySelector('.prev-button');
-const nextButtonTrain = document.querySelector('.next-button');
+const prevButtonTrain = document.querySelector('.prev-button-train');
+const nextButtonTrain = document.querySelector('.next-button-train');
 const galleryContainerTrain = document.querySelector('.train-lista');
 const totalImagesTrain = document.querySelectorAll('.train-li-imagen').length;
 
