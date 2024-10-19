@@ -459,15 +459,6 @@ select {
   justify-content: center;
 }
 
-.header-img {
- position: relative;
-}
-
-.portada {
-  margin-left: 100px;
-  position: absolute;
-}
-
 .portada-titulo {
   color: #fff;
   font-size: 44px;
@@ -995,8 +986,6 @@ button {
 
   .header {
     background-image: url(/Untitled-design.webp);
-    background-size: contain;
-    background-repeat: no-repeat;
     background-position: 0%;
     height: 200px;
   }
