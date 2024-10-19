@@ -997,7 +997,7 @@ button {
 @media (max-width: 768px) {
 
   .header {
-    background-image: url(/IMG/header.webp);
+    background-image: url(/header.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 10%;
