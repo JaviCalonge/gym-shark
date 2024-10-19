@@ -984,7 +984,7 @@ button {
 
 @media (max-width: 768px) {
   .header {
-    background-image: url(./Untitled-design.webp);
+    background-image: url(/header.webp);
     height: 280px;
     background-position: center;
     margin: 0;
@@ -1004,6 +1004,10 @@ button {
     margin-top: 130px;
   }
 
+  .logo {
+    padding: 30px;
+  }
+
   .gallery-navigation {
     display: none;
   }
@@ -1013,6 +1017,8 @@ button {
     font-size: 24px;
     background: none;
     border: none;
+    position: absolute;
+    right: 20px;
   }
 
   .nav {
@@ -1122,7 +1128,7 @@ button {
     gap: 0;
   }
 
-  .footer-enlaces {
+  .footer-info {
     display: none;
   }
 
@@ -1149,7 +1155,6 @@ button {
     margin: 14px;
   }
   
-
   .img-footer {
     width: 100px;
     margin: 2px;
