@@ -80,6 +80,9 @@ a {
 
 /* --------NAVEGADOR-------- */
 
+.menu-toggle {
+  display: none;
+}
 
 .navegador {
   position: sticky;
@@ -989,6 +992,10 @@ button {
     background-position: center;
     margin: 0;
     padding: 0;
+  }
+
+  .menu-toggle {
+    display: block;
   }
 
   .portada-titulo {
