@@ -1,5 +1,5 @@
 const menuToggle = document.querySelector(".menu-toggle");
-const nav = document.querySelector(".nav");
+const nav = document.querySelector(".nav-top");
 
 // Asegúrate de que el menú esté oculto al cargar la página
 nav.style.display = "none";

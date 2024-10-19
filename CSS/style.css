@@ -1003,7 +1003,7 @@ button {
     border: none;
     position: absolute;
     right: 20px;
-    }
+  }
 
   .anuncio {
     margin: 0;
@@ -1032,7 +1032,7 @@ button {
     display: none;
   }
 
-  .nav {
+  .nav-top {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -1046,11 +1046,11 @@ button {
     padding: 4px;
   }
 
-  .nav p {
+  .nav-top p {
     display: none;
   }
 
-  .nav a, .nav select {
+  .nav-top a, .nav-top select {
     text-align: center;
     font-weight: 800;
   }
