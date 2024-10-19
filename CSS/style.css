@@ -994,10 +994,10 @@ button {
 @media (max-width: 768px) {
 
   .header {
-    background-image: url(/header.webp);
-    background-size: cover;
+    background-image: url(/Untitled-design.webp);
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: 10%;
+    background-position: 0%;
     height: 200px;
   }
 
