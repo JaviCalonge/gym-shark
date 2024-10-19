@@ -990,10 +990,17 @@ button {
     background-position: center;
   }
 
-  .portada-titulo,
-  .portada-p,
-  .portada-btn {
+  .portada-titulo {
+   display: none;
+  }
+  
+  .portada-p {
     display: none;
+  }
+  
+  .portada-btn {
+    width: 120px;
+    margin-top: 130px;
   }
 
   .gallery-navigation {
