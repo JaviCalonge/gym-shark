@@ -986,8 +986,8 @@ button {
 
   .header {
     background-image: url(/Untitled-design.webp);
-    background-position: 0%;
     height: 200px;
+    background-size: content;
   }
 
   .portada-titulo,
