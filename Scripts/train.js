@@ -1,15 +1,15 @@
 let currentIndexTrain = 0;
 
-const prevButtonTrain = document.querySelector('.prev-button-train');
-const nextButtonTrain = document.querySelector('.next-button-train');
-const galleryContainerTrain = document.querySelector('.train-lista');
-const totalImagesTrain = document.querySelectorAll('.train-li-imagen').length;
+const prevButtonTrain = document.querySelector(".prev-button-train");
+const nextButtonTrain = document.querySelector(".next-button-train");
+const galleryContainerTrain = document.querySelector(".train-lista");
+const totalImagesTrain = document.querySelectorAll(".train-li-imagen").length;
 
-prevButtonTrain.addEventListener('click', () => {
+prevButtonTrain.addEventListener("click", () => {
   navigateTrain(-2);
 });
 
-nextButtonTrain.addEventListener('click', () => {
+nextButtonTrain.addEventListener("click", () => {
   navigateTrain(2);
 });
 
@@ -24,14 +24,14 @@ function navigateTrain(direction) {
     prevButtonTrain.disabled = false;
   }
 
-  if (currentIndexTrain >= totalImagesTrain -1) {
-    currentIndexTrain = totalImagesTrain -1;
+  if (currentIndexTrain >= totalImagesTrain - 1) {
+    currentIndexTrain = totalImagesTrain - 1;
     nextButtonTrain.disabled = true;
   } else {
     nextButtonTrain.disabled = false;
   }
 
-  const offsetTrain = -currentIndexTrain * 11.3; // Adjust this value according to your layout
+  const offsetTrain = -currentIndexTrain * 5.7; // Adjust this value according to your layout
   galleryContainerTrain.style.transform = `translateX(${offsetTrain}%)`;
 }
 

@@ -92,7 +92,7 @@ a {
   padding-bottom: 2px;
 }
 
-.nav {
+.nav-top {
   display: flex;
   background-color: #EBEBEB;
   padding: 8px;
@@ -101,7 +101,6 @@ a {
   gap: 20px;
   padding-right: 40px;
 }
-
 
 span {
   text-align: center;
@@ -549,7 +548,7 @@ button {
 }
 
 .carrusel-productos {
-  
+  display: flex;
   margin-top: 0;
   gap: 8px;
   transition: transform 0.5s ease;
@@ -675,6 +674,9 @@ button {
 
 /* --------TRAIN SECCION-------- */
 
+.train-mobile {
+  display: none;
+}
 
 .train {
   box-sizing: border-box;
@@ -982,7 +984,7 @@ button {
 /* -----------------IDIOMAS END---------------- */
 
 
-@media (max-width: 768px) {
+/* @media (min-width: 100px) and (max-width: 768px) {
   .header {
     background-image: url(./header.webp);
     height: 320px;
@@ -995,7 +997,13 @@ button {
     display: block;
     margin: 0;
     padding: 0;
-  }
+    cursor: pointer;
+    font-size: 24px;
+    background: none;
+    border: none;
+    position: absolute;
+    right: 20px;
+    }
 
   .anuncio {
     margin: 0;
@@ -1022,15 +1030,6 @@ button {
 
   .gallery-navigation {
     display: none;
-  }
-
-  .menu-toggle {
-    cursor: pointer;
-    font-size: 24px;
-    background: none;
-    border: none;
-    position: absolute;
-    right: 20px;
   }
 
   .nav {
@@ -1245,4 +1244,4 @@ button {
   .custom-select-trigger {
     font-size: 10px;
   }
-}
+} */
