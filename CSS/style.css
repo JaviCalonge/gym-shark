@@ -984,12 +984,12 @@ button {
 /* -----------------IDIOMAS END---------------- */
 
 
-/* @media (min-width: 100px) and (max-width: 768px) {
+@media (max-width: 768px) {
   .header {
     background-image: url(./header.webp);
     height: 320px;
     background-position:55%;
-    margin: 0;
+    margin: 0 0 0 10px;
     padding: 0;
   }
 
@@ -1087,6 +1087,7 @@ button {
     grid-template-columns: 50% 50%;
     justify-content: center;
     align-items: center;
+    gap: 20px;
   }
 
   .carrusel-item img {
@@ -1116,10 +1117,10 @@ button {
   }
 
   .populares-productos-mujer, 
-.populares-productos-hombre, 
-.populares-productos-complementos {
+  .populares-productos-hombre, 
+  .populares-productos-complementos {
   gap: 4px;
-}
+  }
 
   .section-title {
   margin: 40px;
@@ -1191,7 +1192,6 @@ button {
 
   .footer-text {
     font-size: 8px;
-    color: red;
     margin: 14px;
   }
   
@@ -1244,4 +1244,4 @@ button {
   .custom-select-trigger {
     font-size: 10px;
   }
-} */
+}
