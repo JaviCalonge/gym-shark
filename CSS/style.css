@@ -985,9 +985,10 @@ button {
 @media (max-width: 768px) {
   .header {
     background-image: url(./Untitled-design.webp);
-    height: 260px;
+    height: 280px;
     background-position: center;
-    margin-bottom: 40px;
+    margin: 0;
+    padding: 0;
   }
 
   .portada-titulo {
@@ -1023,15 +1024,6 @@ button {
   .nav p {
     display: none;
   }
-
-  /* .nav {
-  display: flex;
-  padding: 0;
-  margin: 0;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  gap: 0px;
-  } */
 
   .dialogo {
     display: none;
@@ -1084,7 +1076,7 @@ button {
   }
 
   .section-title {
-  margin: 10px;
+  margin: 40px;
   font-size: 20px;
   }
 
