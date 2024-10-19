@@ -1032,10 +1032,33 @@ button {
     display: none;
   }
 
+  .carrusel-productos {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
   .carrusel-section {
-    display: none;
     margin-bottom: 40px;
   }
+
+  .carrusel-item img {
+    width: 160px;
+    height: 260px;
+  }
+
+  .carrusel-item button {
+    display: none;
+  }
+
+  .carrusel-todo p {
+    display: none;
+  }
+
+  .last {
+    display: none;
+  }
+
   .populares {
     display: grid;
     grid-template-columns: 50% 50%;
