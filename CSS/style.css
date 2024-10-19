@@ -1005,6 +1005,10 @@ button {
     right: 10px;
   }
 
+  .idioma {
+    font-size: 28px;
+  }
+
   .anuncio {
     margin: 0;
     padding: 0;
@@ -1095,7 +1099,7 @@ button {
   }
 
   .carrusel-item img {
-    width: 180px;
+    width: 170px;
     height: 200px;
   }
 
@@ -1136,7 +1140,7 @@ button {
   }
   
   .populares-img {
-    width: 160px;
+    width: 140px;
     height: 260px;
     margin: 30px 0 20px 0;
     gap: 0;
