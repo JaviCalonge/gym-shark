@@ -985,9 +985,9 @@ button {
 @media (max-width: 768px) {
 
   .header {
-    background-image: url(/Untitled-design.webp);
+    background-image: url(./Untitled-design.webp);
     height: 200px;
-    background-size: content;
+    background-position: center;
   }
 
   .portada-titulo,
