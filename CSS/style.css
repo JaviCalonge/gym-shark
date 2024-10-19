@@ -1053,7 +1053,7 @@ button {
 
   .carrusel-item img {
     width: 160px;
-    height: 260px;
+    height: 230px;
   }
 
   .carrusel-item button {
@@ -1123,12 +1123,38 @@ button {
   }
 
   .footer-enlaces {
-   gap: 2px;
+    display: none;
   }
 
-  .img-footer, .footer-text {
-    width: 144px;
+  .footer-lista {
+    margin: 20px;
+    padding: 0;
   }
+
+  .footer-lista h4 {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer-li {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer-text {
+    font-size: 8px;
+    color: red;
+    margin: 14px;
+  }
+  
+
+  .img-footer {
+    width: 100px;
+    margin: 2px;
+  }
+
   .tarjetas-rrss {
    flex-direction: column;
    margin: 20px;
