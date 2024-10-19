@@ -987,11 +987,9 @@ button {
 
 @media (max-width: 768px) {
   .header {
-    background-image: url(/header.webp);
-    height: 280px;
-    background-position: center;
-    margin: 0;
-    padding: 0;
+    background-image: url(./header.webp);
+    height: 320px;
+    background-position:55%;
   }
 
   .menu-toggle {
@@ -1007,8 +1005,9 @@ button {
   }
   
   .portada-btn {
-    width: 120px;
-    margin-top: 130px;
+    width: 100px;
+    margin-top: 230px;
+    margin-left: 20px;
   }
 
   .logo {
@@ -1036,6 +1035,16 @@ button {
 
   .nav p {
     display: none;
+  }
+
+  .nav a, .nav select {
+    text-align: center;
+    font-weight: 800;
+  }
+
+  .pais {
+    margin-left: 160px;
+    font-weight: 800;
   }
 
   .dialogo {
