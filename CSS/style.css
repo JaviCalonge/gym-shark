@@ -1007,14 +1007,31 @@ button {
     display: none;
   }
 
+  .menu-toggle {
+    cursor: pointer;
+    font-size: 24px;
+    background: none;
+    border: none;
+  }
+
   .nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav p {
+    display: none;
+  }
+
+  /* .nav {
   display: flex;
   padding: 0;
   margin: 0;
   justify-content: space-evenly;
   flex-wrap: wrap;
   gap: 0px;
-  }
+  } */
 
   .dialogo {
     display: none;
@@ -1085,6 +1102,7 @@ button {
   .train {
    display: none;
   }
+
   .img-gradient {
     width: 0%;
     height: 0%;
@@ -1102,13 +1120,20 @@ button {
     width: 180px;
     height: 260px;
   }
+
+  .section-enlaces {
+    margin: 0;
+  }
+
   .enlaces {
     flex-direction: column;
     gap: 0;
   }
+
   .footer-enlaces {
    gap: 2px;
   }
+
   .img-footer, .footer-text {
     width: 144px;
   }
